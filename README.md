@@ -54,7 +54,8 @@ C’est un **outil d’aide à la décision** pour les équipes marketing et com
 
 ## 💬 Pourquoi ce projet est utile
 
-🔹 Un mauvais assortiment = des pertes de ventes, une confusion client, des rayons inefficaces, perdre en CA, en fidélité ou en lisibilité 
+🔹 Un mauvais assortiment = des pertes de ventes, une confusion client, des rayons inefficaces, perdre en CA, en fidélité ou en lisibilité
+
 🔹 Ici, on montre comment utiliser **la data simplement pour guider des choix produits**
 
 J’ai donc voulu créer un **outil concret, simple et actionnable** à partir de données simulées, pour montrer ma capacité à :
