@@ -58,82 +58,7 @@ C’est un **outil d’aide à la décision** pour les équipes marketing et com
 🔹 Ici, on montre comment utiliser **la data simplement pour guider des choix produits**
 
 Pas besoin d’être analyste expert :  
-👀 **en 15 secondes, on sait quoi faire** avec chaque produit !
-
----
-
-## 👤 Projet réalisé par  
-**Samadou KODON**  
-🔗 [Portfolio](https://samadkod.github.io/) | [LinkedIn](https://www.linkedin.com/in/skodon)
-
-
-
-
-
-
-
-
-
-
-
-
-
-# 🛒 Optimisation d’Assortiment FMCG  
-![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-red?logo=streamlit)  
-🔗 [→ Lancer l’application en ligne](https://app-optimisation-aapprtiment-fmcg-aaa2kax5ty2sjwjrjcsgsj.streamlit.app/)
-
----
-
-## 🎯 Objectif du projet
-
-Ce projet simule un **outil d’aide à la décision** pour les équipes marketing, commerciales ou category managers dans le secteur **FMCG (grande consommation)**.
-
-Grâce à l’analyse de données simulées (CA, volume, marge, promotion, élasticité), l’application permet de :
-
-- Visualiser les performances produits par catégorie
-- Identifier les produits à **conserver**, **retirer**, **surveiller** ou **tester**
-- Formuler des recommandations stratégiques basées sur les données
-
----
-
-## 📸 Aperçu de l’application
-> [Clique ici pour tester l’application Streamlit](https://app-optimisation-aapprtiment-fmcg-aaa2kax5ty2sjwjrjcsgsj.streamlit.app/)
-
-- 🎛️ Filtres interactifs par catégorie
-- 📊 Graphiques : CA vs volume / Promo vs élasticité
-- 💬 Recommandations générées automatiquement
-- 📈 KPI synthétiques en haut du tableau de bord
-
----
-
-## 🧠 Comment sont générées les recommandations ?
-
-| Scénario produit | Recommandation | Raisonnement |
-|------------------|----------------|--------------|
-| 🟥 Faible CA, faible marge, forte élasticité prix | **🔻 Retirer** | Produit peu rentable, coûte plus qu’il ne rapporte |
-| 🟢 Bon CA, bonne marge, faible sensibilité prix | **💎 Conserver** | Produit stable, rentable, à garder dans la gamme |
-| 🟡 Promo forte + sensibilité prix élevée | **🧪 Tester sans promo** | Trop dépendant de la promo, peut-être repositionner |
-| 🔵 Marge limite, élasticité moyenne | **⚙️ Surveiller** | Produit fragile, à suivre dans le temps |
-
----
-
-## 📁 Contenu du dépôt
-
-| Fichier                              | Description                                      |
-|-------------------------------------|--------------------------------------------------|
-| `app_streamlit_assortiment.py`      | Code Python de l’application Streamlit          |
-| `dataset_assortiment_fmcg.csv`      | Données simulées – 30 produits, 5 catégories     |
-| `requirements.txt`                  | Dépendances pour exécution sur Streamlit Cloud   |
-| `README.md`                         | Présentation du projet                           |
-
----
-
-## 🧰 Technologies utilisées
-
-- **Python** – Pandas, Plotly
-- **Streamlit** – pour le dashboard interactif
-- **Visualisation & UX** – Filtrage, mise en forme, recommandations
-- **Logique métier simulée** – Élasticité, scoring produit, merchandising
+👀 **en 15 secondes, on sait quoi faire** avec chaque produit 
 
 ---
 
@@ -148,17 +73,54 @@ J’ai donc voulu créer un **outil concret, simple et actionnable** à partir d
 - Concevoir une interface utile aux décideurs
 - Aller de la donnée brute à la recommandation exploitable
 
+  
 ---
-
-## 👤 Réalisé par  
+## 👤 Projet réalisé par  
 **Samadou KODON**  
 🔗 [Portfolio](https://samadkod.github.io/) | [LinkedIn](https://www.linkedin.com/in/skodon)
 
 
+---
 
+## ✅ Recommandations concrètes issues des données
 
+Voici des exemples d’analyses actionnables que l’on peut tirer grâce à cette application :
 
+### 1. Réduire l’assortiment sur les produits peu performants
+- Certains produits ont un **faible chiffre d'affaires**, une **marge quasi nulle** et une **forte sensibilité au prix**.
+- 🔻 **Action :** les retirer ou réduire leur présence en rayon.
+- 🎯 **Objectif :** gagner en lisibilité et rentabilité.
 
+### 2. Optimiser les promotions
+- Certains produits sont **trop dépendants des promos**.
+- 🧪 **Action :** tester une réduction des remises pour voir si les ventes restent stables.
+- 🎯 **Objectif :** dépenser moins en promotion sans perdre de volume.
 
+### 3. Consolider les produits rentables
+- Certains produits sont stables, peu sensibles au prix, et très rentables.
+- 💎 **Action :** les conserver et bien les mettre en avant.
+- 🎯 **Objectif :** sécuriser le chiffre d’affaires et fidéliser les clients.
 
+### 4. Repenser les prix
+- Des produits avec un **volume élevé mais une marge faible** peuvent être mal positionnés.
+- ⚙️ **Action :** revoir leur prix ou leur positionnement.
+- 🎯 **Objectif :** améliorer la marge globale.
 
+### 5. Surveiller les produits "fragiles"
+- Marge moyenne, sensibilité fluctuante, performances incertaines.
+- 👁️ **Action :** les suivre dans le temps.
+- 🎯 **Objectif :** prévenir les pertes ou arbitrer au bon moment.
+
+---
+
+Grâce à cette application, on peut transformer un simple tableau produit en **outil de pilotage stratégique**, accessible à tous.
+
+---
+## 📁 Contenu du dépôt
+
+| Fichier                              | Description                                      |
+|-------------------------------------|--------------------------------------------------|
+| `app_streamlit_assortiment.py`      | Code Python de l’application Streamlit          |
+| `dataset_assortiment_fmcg.csv`      | Données simulées – 30 produits, 5 catégories     |
+| `requirements.txt`                  | Dépendances pour exécution sur Streamlit Cloud   |
+| `README.md`                         | Présentation du projet                           |
