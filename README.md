@@ -54,32 +54,19 @@ C’est un **outil d’aide à la décision** pour les équipes marketing et com
 
 ## 💬 Pourquoi ce projet est utile
 
-🔹 Un mauvais assortiment = des pertes de ventes, une confusion client, des rayons inefficaces  
+🔹 Un mauvais assortiment = des pertes de ventes, une confusion client, des rayons inefficaces, perdre en CA, en fidélité ou en lisibilité 
 🔹 Ici, on montre comment utiliser **la data simplement pour guider des choix produits**
-
-Pas besoin d’être analyste expert :  
-👀 **en 15 secondes, on sait quoi faire** avec chaque produit 
-
----
-
-## 💡 Pourquoi ce projet ?
-
-La gestion d’un assortiment est **un enjeu stratégique** en grande distribution :  
-mal optimiser sa gamme, c’est perdre en CA, en fidélité ou en lisibilité.
 
 J’ai donc voulu créer un **outil concret, simple et actionnable** à partir de données simulées, pour montrer ma capacité à :
 
 - Modéliser une problématique métier
 - Concevoir une interface utile aux décideurs
-- Aller de la donnée brute à la recommandation exploitable
+- Aller de la donnée brute à la recommandation exploitable.
+
+Pas besoin d’être analyste expert :  
+👀 **en 15 secondes, on sait quoi faire** avec chaque produit 
 
   
----
-## 👤 Projet réalisé par  
-**Samadou KODON**  
-🔗 [Portfolio](https://samadkod.github.io/) | [LinkedIn](https://www.linkedin.com/in/skodon)
-
-
 ---
 
 ## ✅ Recommandations concrètes issues des données
@@ -124,3 +111,4 @@ Grâce à cette application, on peut transformer un simple tableau produit en **
 | `dataset_assortiment_fmcg.csv`      | Données simulées – 30 produits, 5 catégories     |
 | `requirements.txt`                  | Dépendances pour exécution sur Streamlit Cloud   |
 | `README.md`                         | Présentation du projet                           |
+
