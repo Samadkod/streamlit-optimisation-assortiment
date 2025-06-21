@@ -44,7 +44,7 @@ fig2 = px.scatter(filtered_df, x="Élasticité prix", y="Taux de promo (%)",
 st.plotly_chart(fig2, use_container_width=True)
 
 # Recommandation simple
-st.subheader("🧠 Recommandations automatisées")
+st.subheader("Recommandations automatisées")
 def recommender(row):
     if row["CA (€)"] > 10000 and row["Élasticité prix"] > -1:
         return "💎 Maintenir"
@@ -58,3 +58,5 @@ def recommender(row):
 filtered_df["Recommandation"] = filtered_df.apply(recommender, axis=1)
 st.dataframe(filtered_df[["Produit", "Catégorie", "CA (€)", "Élasticité prix", 
                           "Taux de promo (%)", "Marge totale (€)", "Recommandation"]])
+
+st.caption("Projet réalisé par Samadou Kodon – 2025")
