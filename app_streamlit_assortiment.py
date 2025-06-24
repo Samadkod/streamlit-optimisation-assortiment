@@ -11,7 +11,7 @@ def load_data():
 
 df = load_data()
 
-st.set_page_config(page_title="Optimisation Assortiment FMCG", layout="wide")
+st.set_page_config(page_title="Optimisation Assortiment", layout="wide")
 
 # Titre principal
 st.title("🛒 Optimisation de l’Assortiment Produits - Grande Consommation")
